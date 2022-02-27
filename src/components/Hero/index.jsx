@@ -10,7 +10,6 @@ import {
   HeroBtnWrapper,
   ArrowForward,
   ArrowRight,
-  VideoOverlay,
 } from './HeroElements';
 import { Button } from '../ButtonElements';
 
