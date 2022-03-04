@@ -103,7 +103,7 @@ const Info = ({
             <Column2>
               <ImgWrap>
                 {imgStart ? (
-                  <Img src={img} style={{ paddingRight: '50px' }} alt={alt} />
+                  <Img src={img} style={{ padding: '50px' }} alt={alt} />
                 ) : (
                   <Img src={img} alt={alt} />
                 )}
