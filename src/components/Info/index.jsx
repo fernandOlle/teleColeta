@@ -55,7 +55,11 @@ const Info = ({
                       </div>
                     </a>
 
-                    <a href='#' target='_blank' rel='noreferrer'>
+                    <a
+                      href='https://www.instagram.com/telecoleta/'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                       <div class='social-btn instagram-color'>
                         <p>Instagram</p>
                         <div class='icons8-instagram'></div>
@@ -71,7 +75,11 @@ const Info = ({
                       alignItems: 'center',
                     }}
                   >
-                    <a href='#' target='_blank' rel='noreferrer'>
+                    <a
+                      href='https://www.facebook.com/telecoletabage'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                       <div class='social-btn facebook-color'>
                         <p>Facebook</p>
                         <div class='icons8-facebook'></div>

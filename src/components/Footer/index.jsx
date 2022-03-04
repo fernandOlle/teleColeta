@@ -60,7 +60,7 @@ const Footer = () => {
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink
-                href='https://www.facebook.com'
+                href='https://www.facebook.com/telecoletabage'
                 target='_blank'
                 rel='noreferrer'
                 arial-label='Facebook'
@@ -68,7 +68,7 @@ const Footer = () => {
                 <FaFacebook />
               </SocialIconLink>
               <SocialIconLink
-                href='https://www.instagram.com/'
+                href='https://www.instagram.com/telecoleta/'
                 target='_blank'
                 rel='noreferrer'
                 arial-label='Instagram'
