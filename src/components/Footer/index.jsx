@@ -62,6 +62,7 @@ const Footer = () => {
               <SocialIconLink
                 href='https://www.facebook.com'
                 target='_blank'
+                rel='noreferrer'
                 arial-label='Facebook'
               >
                 <FaFacebook />
@@ -69,6 +70,7 @@ const Footer = () => {
               <SocialIconLink
                 href='https://www.instagram.com/'
                 target='_blank'
+                rel='noreferrer'
                 arial-label='Instagram'
               >
                 <FaInstagram />

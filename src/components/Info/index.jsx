@@ -47,6 +47,7 @@ const Info = ({
                     <a
                       href='https://api.whatsapp.com/send?phone=5553984198050'
                       target='_blank'
+                      rel='noreferrer'
                     >
                       <div class='social-btn whatsapp-color'>
                         <p>Whatsapp</p>
@@ -54,7 +55,7 @@ const Info = ({
                       </div>
                     </a>
 
-                    <a href='#' target='_blank'>
+                    <a href='#' target='_blank' rel='noreferrer'>
                       <div class='social-btn instagram-color'>
                         <p>Instagram</p>
                         <div class='icons8-instagram'></div>
@@ -70,7 +71,7 @@ const Info = ({
                       alignItems: 'center',
                     }}
                   >
-                    <a href='#' target='_blank'>
+                    <a href='#' target='_blank' rel='noreferrer'>
                       <div class='social-btn facebook-color'>
                         <p>Facebook</p>
                         <div class='icons8-facebook'></div>
