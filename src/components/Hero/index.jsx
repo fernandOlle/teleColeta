@@ -26,7 +26,7 @@ const Hero = () => {
         <VideoBg autoPlay loop muted src={Video} type='video/mp4'></VideoBg>
       </HeroBg>
       <HeroContent>
-        <HeroH1>Coleta de Residuos Feita do Jeito certo </HeroH1>
+        <HeroH1>Coleta de Residuos Feita do Jeito Certo </HeroH1>
         <HeroP>
           bla bla bla bla bla bla bla bla bla blab lab l bla bla bla bla bla bla
           bla bla blab lab l bla bla bla bla bla bla bla blab lab l
