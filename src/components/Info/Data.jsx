@@ -10,7 +10,7 @@ export const homeObjOne = {
   buttonLabel: 'Inicio',
   imgStart: false,
   img: '/images/truck.png',
-  alt: 'car',
+  alt: 'truck',
   dark: true,
   primary: true,
   darkText: false,
@@ -28,10 +28,11 @@ export const homeObjTwo = {
   buttonLabel: 'Inicio',
   imgStart: true,
   img: '/images/reciclagem.png',
-  alt: 'Piggybanck',
+  alt: 'logo-reciclagem',
   dark: false,
   primary: false,
   darkText: true,
+  style: { paddginRight: '50px' },
 };
 
 export const homeObjThree = {
@@ -46,7 +47,7 @@ export const homeObjThree = {
   buttonLabel: 'Contate Nos',
   imgStart: false,
   img: '/images/time.png',
-  alt: 'car',
+  alt: 'logo-tele-coleta',
   primary: false,
   darkText: true,
 };

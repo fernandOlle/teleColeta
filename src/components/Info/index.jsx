@@ -45,17 +45,6 @@ const Info = ({
                     className='testClass'
                   >
                     <a
-                      href='https://api.whatsapp.com/send?phone=5553984198050'
-                      target='_blank'
-                      rel='noreferrer'
-                    >
-                      <div class='social-btn whatsapp-color'>
-                        <p>Whatsapp</p>
-                        <div class='icons8-whatsapp'></div>
-                      </div>
-                    </a>
-
-                    <a
                       href='https://www.instagram.com/telecoleta/'
                       target='_blank'
                       rel='noreferrer'
@@ -71,8 +60,30 @@ const Info = ({
                     style={{
                       display: 'flex',
                       marginTop: '1em',
-                      justifyContent: 'space-around',
-                      alignItems: 'center',
+                      /* justifyContent: 'space-around', */
+                      marginLeft: '5rem',
+                      alignItems: 'left',
+                    }}
+                  >
+                    <a
+                      href='https://api.whatsapp.com/send?phone=5553984198050'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      <div class='social-btn whatsapp-color'>
+                        <p>Whatsapp</p>
+                        <div class='icons8-whatsapp'></div>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    className='test2'
+                    style={{
+                      display: 'flex',
+                      marginTop: '1em',
+                      /* justifyContent: 'space-around', */
+                      marginLeft: '10rem',
+                      alignItems: 'left',
                     }}
                   >
                     <a
@@ -91,7 +102,11 @@ const Info = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={img} alt={alt} />
+                {imgStart ? (
+                  <Img src={img} style={{ paddingRight: '50px' }} alt={alt} />
+                ) : (
+                  <Img src={img} alt={alt} />
+                )}
               </ImgWrap>
             </Column2>
           </InfoRow>
