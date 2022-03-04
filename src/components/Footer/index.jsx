@@ -14,6 +14,7 @@ import {
   SocialMedia,
   SocialMediaWrap,
   WebsiteRights,
+  FooterAnchor,
 } from './FooterElements';
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -28,16 +29,46 @@ const Footer = () => {
         <FooterLinkContainer>
           <FooterLinkWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Sobre Nos</FooterLinkTitle>
-              <FooterLink to='/'>Como Operamos</FooterLink>
-              <FooterLink to='/'>Nossa Missão</FooterLink>
-              <FooterLink to='/'>Serviços</FooterLink>
+              <FooterLinkTitle>Explore Mais</FooterLinkTitle>
+              <FooterAnchor
+                to='about'
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact='true'
+                offset={-80}
+                style={{ cursor: 'pointer' }}
+              >
+                Sobre Nos
+              </FooterAnchor>
+              <FooterAnchor
+                to='discover'
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact='true'
+                offset={-80}
+                style={{ cursor: 'pointer' }}
+              >
+                Nossa Missão
+              </FooterAnchor>
+              <FooterAnchor
+                to='services'
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact='true'
+                offset={-80}
+                style={{ cursor: 'pointer' }}
+              >
+                Serviços
+              </FooterAnchor>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Entre em Contato</FooterLinkTitle>
-              <FooterLink to='/'>Telefone 1</FooterLink>
-              <FooterLink to='/'>Telefone 2</FooterLink>
-              <FooterLink to='/'>Email</FooterLink>
+              <FooterLink to='/'>(53) 3242-8050</FooterLink>
+              <FooterLink to='/'>(53) 98419-8050</FooterLink>
+              <FooterLink to='/'>telecoletaadm@olle.com.br</FooterLink>
               <FooterLink to='/'>@ telecoleta </FooterLink>
             </FooterLinkItems>
           </FooterLinkWrapper>
@@ -45,8 +76,20 @@ const Footer = () => {
           <FooterLinkWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Redes Sociais</FooterLinkTitle>
-              <FooterLink to='/'>Instagram</FooterLink>
-              <FooterLink to='/'>Facebook</FooterLink>
+              <FooterLink
+                href='https://www.instagram.com/telecoleta/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Instagram
+              </FooterLink>
+              <FooterLink
+                href='https://www.facebook.com/telecoletabage'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Facebook
+              </FooterLink>
             </FooterLinkItems>
           </FooterLinkWrapper>
         </FooterLinkContainer>

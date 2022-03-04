@@ -88,11 +88,12 @@ a {
 
 .scroll {
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
   opacity: 0.3;
   background-color: #01bf71;
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 60px;
   position: fixed;
   bottom: 10px;
   right: 10px;

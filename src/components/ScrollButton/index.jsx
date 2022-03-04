@@ -32,6 +32,7 @@ export default class ScrollButton extends React.Component {
         onClick={() => {
           this.scrollToTop();
         }}
+        style={{ cursor: 'pointer' }}
       >
         <span>↑</span>
       </button>
