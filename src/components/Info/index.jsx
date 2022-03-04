@@ -35,7 +35,7 @@ const Info = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                <div style={{ marginRight: '3em' }}>
+                <div style={{ marginRight: '2em' }}>
                   <div
                     style={{
                       display: ' flex',
@@ -59,9 +59,9 @@ const Info = ({
                     className='test2'
                     style={{
                       display: 'flex',
-                      marginTop: '1em',
+                      marginTop: '0.5em',
                       /* justifyContent: 'space-around', */
-                      marginLeft: '5rem',
+                      marginLeft: '4rem',
                       alignItems: 'left',
                     }}
                   >
@@ -80,9 +80,9 @@ const Info = ({
                     className='test2'
                     style={{
                       display: 'flex',
-                      marginTop: '1em',
+                      marginTop: '0.5em',
                       /* justifyContent: 'space-around', */
-                      marginLeft: '10rem',
+                      marginLeft: '8rem',
                       alignItems: 'left',
                     }}
                   >
