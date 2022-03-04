@@ -33,7 +33,7 @@ export default class ScrollButton extends React.Component {
           this.scrollToTop();
         }}
       >
-        <span className='arrow-up glyphicon glyphicon-chevron-up'>⮝</span>
+        <span>↑</span>
       </button>
     );
   }
