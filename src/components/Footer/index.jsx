@@ -60,14 +60,14 @@ const Footer = () => {
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink
-                href='//www.facebook.com'
+                href='https://www.facebook.com'
                 target='_blank'
                 arial-label='Facebook'
               >
                 <FaFacebook />
               </SocialIconLink>
               <SocialIconLink
-                href='//www.instagram.com/'
+                href='https://www.instagram.com/'
                 target='_blank'
                 arial-label='Instagram'
               >

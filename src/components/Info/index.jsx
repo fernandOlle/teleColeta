@@ -35,13 +35,49 @@ const Info = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
+                <div style={{ marginRight: '3em' }}>
+                  <div
+                    style={{
+                      display: ' flex',
+                      flexDirection: ' row',
+                      justifyContent: 'space-between',
+                    }}
+                    className='testClass'
+                  >
+                    <a
+                      href='https://api.whatsapp.com/send?phone=5553984198050'
+                      target='_blank'
+                    >
+                      <div class='social-btn whatsapp-color'>
+                        <p>Whatsapp</p>
+                        <div class='icons8-whatsapp'></div>
+                      </div>
+                    </a>
 
-                <a href='https://api.whatsapp.com/send?phone=5553984198050'>
-                  <div class='social-btn whatsapp-color'>
-                    <p>Nos Contate</p>
-                    <div class='icons8-whatsapp'></div>
+                    <a href='#' target='_blank'>
+                      <div class='social-btn instagram-color'>
+                        <p>Instagram</p>
+                        <div class='icons8-instagram'></div>
+                      </div>
+                    </a>
                   </div>
-                </a>
+                  <div
+                    className='test2'
+                    style={{
+                      display: 'flex',
+                      marginTop: '1em',
+                      justifyContent: 'space-around',
+                      alignItems: 'center',
+                    }}
+                  >
+                    <a href='#' target='_blank'>
+                      <div class='social-btn facebook-color'>
+                        <p>Facebook</p>
+                        <div class='icons8-facebook'></div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
               </TextWrapper>
             </Column1>
             <Column2>
