@@ -27,7 +27,7 @@ export default class ScrollButton extends React.Component {
   render() {
     return (
       <button
-        title='Back to top'
+        title='Back  to top'
         className='scroll'
         onClick={() => {
           this.scrollToTop();
