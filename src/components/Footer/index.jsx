@@ -63,6 +63,17 @@ const Footer = () => {
               >
                 Serviços
               </FooterAnchor>
+              <FooterAnchor
+                to='galery'
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact='true'
+                offset={-80}
+                style={{ cursor: 'pointer' }}
+              >
+                Galeria
+              </FooterAnchor>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Entre em Contato</FooterLinkTitle>
