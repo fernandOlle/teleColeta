@@ -28,7 +28,7 @@ export const GaleryObjTwo = {
   imgStart: false,
   img: {
     src: 'https://www.youtube.com/embed/XJnx18CsOyU',
-    title: 'YouTube video player',
+    title: 'YouTube video player 1',
     frameborde: '0',
     allow:
       'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
@@ -58,7 +58,7 @@ export const GaleryObjThree = {
   img2: {
     src: 'https://www.youtube-nocookie.com/embed/mVTbZSQOjik?start=15',
 
-    title: 'YouTube video player',
+    title: 'YouTube video player 2',
     frameborde: '0',
     allow:
       'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
@@ -77,7 +77,7 @@ export const GaleryObjFour = {
   imgStart: false,
   img: {
     src: 'https://www.youtube-nocookie.com/embed/5zOArIsQTig',
-    title: 'YouTube video player',
+    title: 'YouTube video player 3',
     frameborde: '0',
     allow:
       'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture',

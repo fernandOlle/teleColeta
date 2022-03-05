@@ -52,7 +52,7 @@ const Galery = ({
       setVideoWidth('560');
       setVideoHeight('315');
     }
-  }, [window.width]);
+  }, [window.width, img, img2]);
 
   return (
     <>
