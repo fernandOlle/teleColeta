@@ -11,7 +11,6 @@ import {
   Subtitle,
   ImgWrap,
   Img,
-  Vid,
 } from './GaleryElements';
 
 const Galery = ({
