@@ -17,8 +17,8 @@ const Services = () => {
       <ServicesH1>Nossos Serviços</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesH2>Coleta transporte e destinação final</ServicesH2>
+          <ServicesIcon src='../../images/destinacao.png' />
+          <ServicesH2>Coleta, Transporte e Destinação Final</ServicesH2>
           <ServicesP>
             ESSA CAIXA FICA NO MAXIMO DESSE TAMANHO!
             <br />
@@ -27,51 +27,44 @@ const Services = () => {
             blal bla bla bla bal blal blabla bla bal blal blabla bla bal blal
             bla bla bla bal blal blabla bla bal blal blabla bla bal blal bla bla
             bla bal blal blabla bla bal blal blabla bla bal blal bla bla bla bal
-            blal blabla bla bal blal blabla bla bal blal bla bla bla bal blabla
-            bla bal blal blabla bl
+            blal blabla bla bal blal blabla bla bal blal bla bla bla bal
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon2} />
-          <ServicesH2>Venda de aterro</ServicesH2>
+          <ServicesIcon src='../../images/aterro.png' />
+          <ServicesH2>Venda de Aterro</ServicesH2>
           <ServicesP>
             bla bla bal blal blabla bla bal blal blabla bla bal blal blabla bla
             bal blal bla
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src='../../images/reciclagem.png' />
-          <ServicesH2>Compra de produtos recoclaveis</ServicesH2>
+          <ServicesIcon src='../../images/crecicle.png' />
+          <ServicesH2>Compra de Produtos Reciclaveis</ServicesH2>
           <ServicesP>
             bla bla bal blal blabla bla bal blal blabla bla bal blal bla
           </ServicesP>
         </ServicesCard>
 
         <ServicesCard>
-          <ServicesIcon src={Icon1} />
-          <ServicesH2>Locacao de containers de 3, 4 e 5 m³</ServicesH2>
+          <ServicesIcon src='../../images/345.png' />
+          <ServicesH2>Locacao de Containers de 3, 4 e 5 m³</ServicesH2>
           <ServicesP>
             bla bla bal blal blabla bla bal blal blabla bla bal blal bla
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon2} />
-          <ServicesH2>Locacao de poliguindaste</ServicesH2>
+          <ServicesIcon src='../../images/aluguel.png' />
+          <ServicesH2>Locação de Poliguindaste</ServicesH2>
           <ServicesP>
             bla bla bal blal blabla bla bal blal blabla bla bal blal blabla bla
             bal blal bla
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src='../../images/reciclagem.png' />
-          <ServicesH2>
-            E ainda temos planos Excluisvos para Empresas!
-          </ServicesH2>
+          <ServicesIcon src='../../images/empresa.png' />
+          <ServicesH2>E temos Planos Excluisvos para Empresas!</ServicesH2>
           <ServicesP>
-            TODAS AS IMAGENS SÃO MERAMENTE ILUSTRATIVAS, IRAM MUDAR NO PRODUTO
-            FINAL!
-            <br />
-            <br />
             bla bla bal blal blabla bla bal blal blabla bla bal blal bla
           </ServicesP>
         </ServicesCard>
