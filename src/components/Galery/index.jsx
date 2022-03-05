@@ -76,6 +76,7 @@ const Galery = ({
                       height={(parseInt(videoHeight) + 75).toString()}
                       {...img2}
                       allowfullscreen
+                      tittle={Math.random().toString()}
                     ></iframe>
                   )}
                 </ImgWrap>
@@ -91,6 +92,7 @@ const Galery = ({
                     height={videoHeight}
                     {...img}
                     allowfullscreen
+                    tittle={Math.random().toString()}
                   ></iframe>
                 )}
               </ImgWrap>
