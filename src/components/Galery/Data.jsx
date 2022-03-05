@@ -26,17 +26,13 @@ export const GaleryObjTwo = {
   description: 'Brasil, Rio Grande do Sul, Bagé, Gomes Carneiro 1098',
   buttonLabel: 'Contate Nos',
   imgStart: false,
-  img: (
-    <iframe
-      width='560'
-      height='315'
-      src='https://www.youtube.com/embed/XJnx18CsOyU'
-      title='YouTube video player'
-      frameborder='0'
-      allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-      allowfullscreen
-    ></iframe>
-  ),
+  img: {
+    src: 'https://www.youtube.com/embed/XJnx18CsOyU',
+    title: 'YouTube video player',
+    frameborde: '0',
+    allow:
+      'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
+  },
   alt: 'placa-tele-coleta',
   primary: !false,
   darkText: !true,
@@ -59,17 +55,14 @@ export const GaleryObjThree = {
   primary: false,
   darkText: true,
   hasText: false,
-  img2: (
-    <iframe
-      width='560'
-      height='315'
-      src='https://www.youtube-nocookie.com/embed/mVTbZSQOjik?start=15'
-      title='YouTube video player'
-      frameborder='0'
-      allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-      allowfullscreen
-    ></iframe>
-  ),
+  img2: {
+    src: 'https://www.youtube-nocookie.com/embed/mVTbZSQOjik?start=15',
+
+    title: 'YouTube video player',
+    frameborde: '0',
+    allow:
+      'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
+  },
 };
 
 export const GaleryObjFour = {
@@ -82,17 +75,13 @@ export const GaleryObjFour = {
   description: 'Brasil, Rio Grande do Sul, Bagé, Gomes Carneiro 1098',
   buttonLabel: 'Contate Nos',
   imgStart: false,
-  img: (
-    <iframe
-      width='560'
-      height='315'
-      src='https://www.youtube-nocookie.com/embed/5zOArIsQTig'
-      title='YouTube video player'
-      frameborder='0'
-      allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-      allowfullscreen
-    ></iframe>
-  ),
+  img: {
+    src: 'https://www.youtube-nocookie.com/embed/5zOArIsQTig',
+    title: 'YouTube video player',
+    frameborde: '0',
+    allow:
+      'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
+  },
   alt: 'placa-tele-coleta',
   primary: !false,
   darkText: !true,

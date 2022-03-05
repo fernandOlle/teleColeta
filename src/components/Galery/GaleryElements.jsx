@@ -22,6 +22,10 @@ export const GaleryWrapper = styled.div`
   @media screen and (max-width: 1000px) {
     height: 1100px;
   }
+
+  @media screen and (max-width: 520px) {
+    height: 520px;
+  }
 `;
 export const GaleryRow = styled.div`
   display: grid;
