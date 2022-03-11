@@ -42,6 +42,14 @@ const Galery = ({
         window.width <= 610)
     ) {
       if (window.width <= 481) {
+        if (window.width <= 420) {
+          if (window.width <= 300) {
+            setVideoWidth('');
+            setVideoHeight('');
+          }
+          setVideoWidth('200');
+          setVideoHeight('100');
+        }
         setVideoWidth('282');
         setVideoHeight('159');
       } else {
@@ -77,6 +85,7 @@ const Galery = ({
                       {...img2}
                       allowfullscreen
                       title={Math.random().toString()}
+                      style={{borderRadius: '6px'}}
                     ></iframe>
                   )}
                 </ImgWrap>
@@ -93,6 +102,7 @@ const Galery = ({
                     {...img}
                     allowfullscreen
                     title={Math.random().toString()}
+                    style={{borderRadius: '6px'}}
                   ></iframe>
                 )}
               </ImgWrap>

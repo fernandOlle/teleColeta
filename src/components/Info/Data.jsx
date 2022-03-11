@@ -6,7 +6,8 @@ export const homeObjOne = {
   topLine: 'A Quase 30 anos no Ramo',
   headline: 'Totalmente Dedicado a Atender Você',
   description:
-    'bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla ',
+    'Em sua história a Tele Coleta entendeu a necessidade de cada cliente. A empresa possui um grande frota de caminhões e caçambas, de diversos tamanho desta forma fazendo a diferença no serviço e no preço.'+
+    'Ligue agora!',
   buttonLabel: 'Inicio',
   imgStart: false,
   img: '/images/truck.png',
@@ -24,7 +25,7 @@ export const homeObjTwo = {
   topLine: 'Reciclagem',
   headline: 'Temos um compromisso com o meio ambiente ',
   description:
-    'bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla blab lbalb albalbla b',
+    'Contrate uma empresa responsável e licenciada para descartar o seus resíduos. A Tele Coleta é uma empresa licenciada pela FEPAM e pelo IBAMA. Logo, é uma empresa consciente, buscando fazer o certo pelas pessoas, pela cidade e principalmente pelo meio ambiente.',
   buttonLabel: 'Inicio',
   imgStart: true,
   img: '/images/reciclagem.png',
@@ -41,9 +42,9 @@ export const homeObjThree = {
   lightText: false,
   lighttextDesc: false,
   topLine: 'Lider da Região',
-  headline: 'Entre em contato',
+  headline: 'Contrate uma empresa responsável e licenciada para descartar resíduos.',
   description:
-    'bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla ',
+    'Entre em contato: (53) 3242-8050 ou pelo WhatsApp (53) 98419-8050 ',
   buttonLabel: 'Contate Nos',
   imgStart: false,
   img: '/images/time.png',
