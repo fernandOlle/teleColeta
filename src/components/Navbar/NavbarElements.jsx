@@ -14,8 +14,6 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
-  color: ${({ scrollNav }) =>
-    scrollNav ? 'rgba(f, f, f, 1)' : 'rgba(f, f, f, 0.005)'};
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
