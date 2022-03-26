@@ -38,9 +38,10 @@ const Navbar = ({ toggle }) => {
             {scrollNav ? (
               <NavLogo to='/' onClick={toggleHome}>
                 <img
-                  src='/public/images/time.png'
+                  src='./images/time.png'
                   alt='logo telecoleta'
-                  sytle={{ width: '50px', height: '50px' }}
+                  width='110px'
+                  height='75px'
                 />
               </NavLogo>
             ) : (
