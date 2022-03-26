@@ -52,6 +52,26 @@ export const ServicesCard = styled.div`
     cursor: pointer;
   }
 `;
+
+export const ExclusiveServicesCard = styled.div`
+  background: #ff8921;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  max-height: 540px;
+  padding: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 42px 17px rgba(255, 156, 46, 0.72);
+    box-shadow: 0px 0px 42px 17px rgba(255, 156, 46, 0.72);
+  }
+`;
 export const ServicesIcon = styled.img`
   height: 160px;
   width: 160px;
@@ -68,6 +88,11 @@ export const ServicesH1 = styled.h1`
 `;
 export const ServicesH2 = styled.h2`
   font-size: 1rem;
+  margin-bottom: 10px;
+`;
+
+export const ExclusiveServicesH2 = styled.h2`
+  font-size: 1.25rem;
   margin-bottom: 10px;
 `;
 

@@ -8,6 +8,8 @@ import {
   ServicesIcon,
   ServicesH2,
   ServicesP,
+  ExclusiveServicesCard,
+  ExclusiveServicesH2,
 } from './ServiceElements';
 
 const Services = () => {
@@ -17,7 +19,9 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src='../../images/destinacao.png' />
-          <ServicesH2>Coleta, Transporte e Destinação Final</ServicesH2>
+          <ServicesH2>
+            Coleta, Transporte e Destinação Final de residuos
+          </ServicesH2>
           {/* <ServicesP>
           </ServicesP> */}
           <ServicesP></ServicesP>
@@ -42,9 +46,9 @@ const Services = () => {
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src='../../images/345.png' />
-          <ServicesH2>Locação de Caçambas</ServicesH2>
+          <ServicesH2>Locação de Containers</ServicesH2>
           <ServicesP>
-            Na Tele Coleta você contrata as caçambas de acordo com a sua
+            Na Tele Coleta você contrata as Containers de acordo com a sua
             necessidade. 3m³, 4m³ e 5m³ e outros tamanhos esepciais para
             qualquer tipo de demanda.
           </ServicesP>
@@ -58,13 +62,15 @@ const Services = () => {
           </ServicesP> */}
           <ServicesP></ServicesP>
         </ServicesCard>
-        <ServicesCard>
+        <ExclusiveServicesCard>
           <ServicesIcon src='../../images/empresa.png' />
-          <ServicesH2>E temos Planos Excluisvos para Empresas!</ServicesH2>
+          <ExclusiveServicesH2>
+            Temos Planos Excluisvos para Empresas!
+          </ExclusiveServicesH2>
           <ServicesP>
             Planos de acordo com a necessidade da sua empresa!
           </ServicesP>
-        </ServicesCard>
+        </ExclusiveServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
   );

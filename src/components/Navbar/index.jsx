@@ -35,10 +35,17 @@ const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{ color: '#fff' }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
-            { scrollNav ?
-            <NavLogo to='/' onClick={toggleHome}>
-              TeleColeta
-            </NavLogo> : '' }
+            {scrollNav ? (
+              <NavLogo to='/' onClick={toggleHome}>
+                <img
+                  src='/public/images/time.png'
+                  alt='logo telecoleta'
+                  sytle={{ width: '50px', height: '50px' }}
+                />
+              </NavLogo>
+            ) : (
+              ''
+            )}
             <MobileIcon onClick={toggle}>
               <FaBars />
             </MobileIcon>
