@@ -5,7 +5,7 @@ export const GaleryObjOne = {
   lighttextDesc: false,
   topLine: 'Galeria da TeleColeta',
   headline: 'Conheça Nossas Instalações',
-  description: 'Brasil, Rio Grande do Sul, Bagé, Gomes Carneiro 1098',
+  description: 'Gomes Carneiro 1098, Bagé, Rio Grande do Sul, Brasil',
   buttonLabel: 'Contate Nos',
   imgStart: false,
   img: '/images/placa.png',

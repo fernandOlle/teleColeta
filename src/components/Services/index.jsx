@@ -44,7 +44,9 @@ const Services = () => {
           <ServicesIcon src='../../images/345.png' />
           <ServicesH2>Locação de Caçambas</ServicesH2>
           <ServicesP>
-          Na Tele Coleta você contrata as caçambas de acordo com a sua necessidade. 3m³, 4m³ e 5m³
+            Na Tele Coleta você contrata as caçambas de acordo com a sua
+            necessidade. 3m³, 4m³ e 5m³ e outros tamanhos esepciais para
+            qualquer tipo de demanda.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
