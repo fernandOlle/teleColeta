@@ -28,7 +28,10 @@ const Hero = () => {
       <HeroContent>
         <HeroH1>Coleta de Residuos Feita do Jeito Certo </HeroH1>
         <HeroP>
-          A Tele Coleta está servindo a região da campanha há mais de 27 anos. Isso permite conhecer as demandas da região da campanha buscando sempre se reinventar. Atendendo os clientes mais exigentes do mercado, garantindo a destinação ecologicamente sustentável dos resíduos.
+          A Tele Coleta está servindo a região da campanha desde 1995. Isso
+          permite conhecer as demandas da região buscando sempre se reinventar.
+          Atendendo os clientes mais exigentes do mercado, garantindo a
+          destinação ecologicamente sustentável dos resíduos.
         </HeroP>
         <HeroBtnWrapper>
           <Button

@@ -31,7 +31,7 @@ export const GaleryObjTwo = {
     title: 'YouTube video player 1',
     frameborde: '0',
     allow:
-      'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
+      'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; allowfullscreen;',
   },
   alt: 'placa-tele-coleta',
   primary: !false,
@@ -57,11 +57,10 @@ export const GaleryObjThree = {
   hasText: false,
   img2: {
     src: 'https://www.youtube-nocookie.com/embed/mVTbZSQOjik?start=15',
-
     title: 'YouTube video player 2',
     frameborde: '0',
     allow:
-      'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
+      'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; allowfullscreen;',
   },
 };
 
@@ -80,7 +79,7 @@ export const GaleryObjFour = {
     title: 'YouTube video player 3',
     frameborde: '0',
     allow:
-      'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
+      'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; allowfullscreen;',
   },
   alt: 'placa-tele-coleta',
   primary: !false,

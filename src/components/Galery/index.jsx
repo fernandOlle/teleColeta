@@ -83,9 +83,11 @@ const Galery = ({
                       width={parseInt(videoWidth).toString()}
                       height={(parseInt(videoHeight) + 75).toString()}
                       {...img2}
-                      allowfullscreen
                       title={Math.random().toString()}
-                      style={{borderRadius: '6px'}}
+                      style={{ borderRadius: '6px' }}
+                      allowFullScreen='true'
+                      webkitallowfullscreen='true'
+                      mozallowfullscreen='true'
                     ></iframe>
                   )}
                 </ImgWrap>
@@ -100,9 +102,11 @@ const Galery = ({
                     width={videoWidth}
                     height={videoHeight}
                     {...img}
-                    allowfullscreen
                     title={Math.random().toString()}
-                    style={{borderRadius: '6px'}}
+                    style={{ borderRadius: '6px' }}
+                    allowFullScreen='true'
+                    webkitallowfullscreen='true'
+                    mozallowfullscreen='true'
                   ></iframe>
                 )}
               </ImgWrap>
