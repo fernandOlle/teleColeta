@@ -40,8 +40,8 @@ const Navbar = ({ toggle }) => {
                 <img
                   src='./images/time.png'
                   alt='logo telecoleta'
-                  width='110px'
-                  height='75px'
+                  width='150px'
+                  height='105px'
                 />
               </NavLogo>
             ) : (
