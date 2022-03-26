@@ -6,7 +6,7 @@ export const homeObjOne = {
   topLine: 'A Quase 30 anos no Ramo',
   headline: 'Totalmente Dedicado a Atender Você',
   description:
-    'Em sua história a Tele Coleta entendeu a necessidade de cada cliente. A empresa possui um grande frota de caminhões e caçambas, de diversos tamanho desta forma fazendo a diferença no serviço e no preço.'+
+    'Em sua história a Tele Coleta entendeu a necessidade de cada cliente. A empresa possui um grande frota de caminhões e caçambas, de diversos tamanhos desta forma fazendo a diferença no serviço e no preço.' +
     'Ligue agora!',
   buttonLabel: 'Inicio',
   imgStart: false,
@@ -42,7 +42,8 @@ export const homeObjThree = {
   lightText: false,
   lighttextDesc: false,
   topLine: 'Lider da Região',
-  headline: 'Contrate uma empresa responsável e licenciada para descartar resíduos.',
+  headline:
+    'Contrate uma empresa responsável e licenciada para descartar resíduos.',
   description:
     'Entre em contato: (53) 3242-8050 ou pelo WhatsApp (53) 98419-8050 ',
   buttonLabel: 'Contate Nos',
