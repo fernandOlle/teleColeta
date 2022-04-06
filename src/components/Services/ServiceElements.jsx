@@ -54,7 +54,7 @@ export const ServicesCard = styled.div`
 `;
 
 export const ExclusiveServicesCard = styled.div`
-  background: #ff8921;
+  background: #daa520;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

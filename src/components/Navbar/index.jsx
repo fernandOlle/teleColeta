@@ -38,10 +38,10 @@ const Navbar = ({ toggle }) => {
             {scrollNav ? (
               <NavLogo to='/' onClick={toggleHome}>
                 <img
-                  src='./images/time.png'
+                  src='./images/header.png'
                   alt='logo telecoleta'
-                  width='150px'
-                  height='105px'
+                  width='110px'
+                  height='96px'
                 />
               </NavLogo>
             ) : (
@@ -60,7 +60,7 @@ const Navbar = ({ toggle }) => {
                   exact='true'
                   offset={-80}
                 >
-                  Sobre Nos
+                  Sobre Nós
                 </NavLinks>
               </NavItem>
               <NavItem>

@@ -17,7 +17,7 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink to='about' onClick={toggle}>
-            Sobre Nos
+            Sobre Nós
           </SidebarLink>
           <SidebarLink to='discover' onClick={toggle}>
             Nossa Missão

@@ -39,7 +39,7 @@ const Footer = () => {
                 offset={-80}
                 style={{ cursor: 'pointer' }}
               >
-                Sobre Nos
+                Sobre Nós
               </FooterAnchor>
               <FooterAnchor
                 to='discover'

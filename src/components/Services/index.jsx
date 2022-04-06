@@ -63,7 +63,7 @@ const Services = () => {
           <ServicesP></ServicesP>
         </ServicesCard>
         <ExclusiveServicesCard>
-          <ServicesIcon src='../../images/empresa.png' />
+          <ServicesIcon src='../../images/logo.png' />
           <ExclusiveServicesH2>
             Temos Planos Excluisvos para Empresas!
           </ExclusiveServicesH2>
